@@ -5,7 +5,7 @@ from conans import tools
 class AppConan(ConanFile):
     name = "App"
     version = "0.1"
-    settings = "os", "compiler", "build_type", "arch", "os_build", "arch_build"
+    settings = "os", "compiler", "build_type", "arch"
     exports_sources = "src/*"
     requires = "Hello/0.1@user/testing"
 

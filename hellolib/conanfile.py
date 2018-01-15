@@ -5,7 +5,7 @@ from conans import tools
 class HelloConan(ConanFile):
     name = "Hello"
     version = "0.1"
-    settings = "os", "compiler", "build_type", "arch", "os_build", "arch_build"
+    settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
     exports_sources = "src/*"
 
